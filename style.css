@@ -1,0 +1,30 @@
+body,html {
+    box-sizing: border-box;
+    background-color: #FFEA00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    text-align:center;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    color: #323031;
+    text-shadow: 0px 12px #EAD705;
+}
+.ui-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+button {
+    width: 300px;
+    padding: 12px;
+    flex:none;
+    background: transparent;
+    border: 2px solid white;
+    margin: 0 36px;
+}
+.design {
+    filter: drop-shadow(0 12px #EAD705);
+}

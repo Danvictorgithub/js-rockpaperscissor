@@ -7,8 +7,6 @@ function computerPlay() {
 		return "scissor";
 	}
 }
-
-
 function playRound(playerSelection,computerPlay) {
 	if (playerSelection.toLowerCase() == computerPlay) {
 		return "Draw";
@@ -36,8 +34,3 @@ function game() {
 	let playerSelection = prompt("Rock Paper Scissor").toLowerCase();
 	alert(playRound(playerSelection,computerPlay()));
 }
-game();
-game();
-game();
-game();
-game();
