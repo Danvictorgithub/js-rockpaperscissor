@@ -2,8 +2,12 @@ body,html {
     box-sizing: border-box;
     background-color: #FFEA00;
     font-family: 'Roboto', sans-serif;
+    margin:0;
 }
-
+body {
+    height:100vh;
+    border:10px solid white;
+}
 .main-header {
     text-align:center;
     letter-spacing: 2px;
@@ -18,7 +22,8 @@ body,html {
     flex-wrap: wrap;
 }
 button {
-    width: 300px;
+    width: 200px;
+    height: 180px;
     padding: 12px;
     flex:none;
     background: transparent;
@@ -27,4 +32,32 @@ button {
 }
 .design {
     filter: drop-shadow(0 12px #EAD705);
+    height:50%;
+}
+.ui {
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    width:80vw;
+    height: 28vh;
+    border:2px solid white;
+}
+.player, .computer {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    text-align:center;
+    font-weight:bolder;
+    font-size:x-large;
+    color: #323031;
+}
+.result-info {
+    font-size: xx-large;
+    text-align: center;
+    color: #323031;
 }

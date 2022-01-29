@@ -6,34 +6,36 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<script src="rps.js" defer></script>
 </head>
 <body>
-	<script src="rps.js"></script>
-		<div class="main-header">
-			<h1>Rock-Paper-Scissor</h1>
+	<div class="main-header">
+		<h1>Rock-Paper-Scissor</h1>
+	</div>
+	<div class="ui-buttons">
+		<button value="rock">
+			<img class="design" value="rock" src="img/rock.png">
+		</button>
+		<button value="paper">
+			<img class="design" value="paper" src="img/paper.png">
+		</button>
+		<button value="scissor">
+			<img class="design" value="scissor"src="img/scissor.png">
+		</button>
+	</div>
+	<div class='ui'>
+		<div class='player'>
+			<p class='text'>Player</p>
+			<div id="player-choice"></div>
+			<p class="player-score"></p>
 		</div>
-		<div class="ui">
-			<div>
-
-			</div>
-			<div>
-
-			</div>
+		<div class='computer'>
+			<p class='text'>Computer</p>
+			<div id="computer-choice"></div>
+			<p class="computer-score"></p>
 		</div>
-		<div class="ui-buttons">
-			<button>
-				<img class="design" src="img/rock.png">
-				<p>Rock</p>
-			</button>
-			<button>
-				<img class="design" src="img/paper.png">
-				<p>Paper</p>
-			</button>
-			<button>
-				<img class="design" src="img/scissor.png">
-				<p>Scissor</p>
-			</button>
-		</div>
+	</div>
+	<p class='result-info'>test</p>
 </body>
 </html>
