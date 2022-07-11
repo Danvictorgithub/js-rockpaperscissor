@@ -1,2 +1,2 @@
 # js-rockpaperscissor
-Practicing Rock Paper Scissor in JavaScript
+JavaScript DOM Practice
